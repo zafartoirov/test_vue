@@ -1,0 +1,75 @@
+@font-face {
+   font-family: 'Comfortaa';
+   src: url('../font/Comfortaa/Comfortaa-Bold.ttf');
+   font-weight: 700;
+}
+@font-face {
+   font-family: 'Comfortaa';
+   src: url('../font/Comfortaa/Comfortaa-Regular.ttf');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../font/Montserrat/Montserrat-Bold.ttf');
+   font-weight: 700;
+}
+@font-face {
+   font-family: 'Montserrat';
+   src: url('../font/Montserrat/Montserrat-Regular.ttf');
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'Roboto';
+   src: url('../font/Roboto/Roboto-Medium.ttf');
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'Roboto';
+   src: url('../font/Roboto/Roboto-Regular.ttf');
+   font-weight: 400;
+}
+
+/* ======== Иконки ======= */
+@font-face {
+   font-family: 'FontAwesome';
+   src: url('../font/webfonts/fa-light-300.woff2');
+   font-weight: 300;
+}
+@font-face {
+   font-family: 'FontAwesome';
+   src: url('../font/webfonts/fa-duotone-900.woff2');
+   font-weight: 900;
+}
+
+.fal{
+   font-family: 'FontAwesome';
+   font-weight: 300;
+}
+.fad{
+   font-family: 'FontAwesome';
+   font-weight: 900;
+}
+
+.films-icon::before{
+   content: '\f008';
+   font-style: normal;
+   font-size: 50px;
+   color: white;
+   margin-right: 24px;
+}
+.play-icon{
+   font-size: 42px;
+   margin-bottom: 12px;
+   cursor: pointer;
+}
+.play-icon::before{
+   content: '\f04b';
+   color: #FFFFFF;
+   font-style: normal;
+   position: absolute;
+}
+.play-icon::after{
+   content: '\10f04b';
+   color: rgba(255, 255, 255, 0.5);
+   font-style: normal;
+}
